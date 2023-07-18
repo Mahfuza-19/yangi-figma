@@ -1,0 +1,186 @@
+#Fresh {
+  margin-top: 36px;
+  .container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .fresh_img {
+    margin-bottom: 25px;
+    img {
+      border-radius: 10px;
+      width: 100%;
+      height: 578px;
+    }
+  }
+  .fresh_text {
+    h2 {
+      color: $color-2;
+      text-align: center;
+      font-size: 39.7px;
+      font-weight: 600;
+      line-height: 49px;
+      margin-bottom: 16px;
+    }
+    p {
+      color: $color-3;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      margin-bottom: 41px;
+    }
+    .fresh_boxes{
+        display: flex;
+        flex-direction: column;
+        .fresh_box{
+            display: flex;
+            align-items: center;
+            gap: 23px;
+            img{
+                width: 52px;
+                height: 52px;
+                margin-top: -40px;
+            }
+            p{
+               text-align: left;
+                color:$color-1;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px; 
+                span{
+                    display: none;
+                }
+            }
+        }
+    }
+  }
+}
+@media screen and (min-width: 880px){
+    #Fresh {
+        margin-top: 80px;
+        margin-bottom: 80px;
+        .container {
+          max-width:90%;
+        }
+        .fresh{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 25px;
+        }
+        .fresh_img {
+          margin-bottom: 0;
+          img {
+            width: 429.5px;
+            height: 578px;
+          }
+        }
+        .fresh_text {
+          margin-top: 45px;
+          h2 {
+            text-align: start;
+            font-size: 50px;
+            line-height: 62px;
+          }
+          p {
+            text-align: start;
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 50px;
+          }
+          .fresh_boxes{
+              display: flex;
+              flex-direction: column;
+              margin-top: 90px;
+            
+              .fresh_box{
+                  display: flex;
+                  align-items: center;
+                  gap: 23px;
+
+                  img{
+                      width: 52px;
+                      height: 52px;
+                      margin-top: -50px;
+                  }
+                  p{
+                     text-align: left;
+                      color:$color-1;
+                      font-size: 16px;
+                      font-weight: 400;
+                      line-height: 24px; 
+                  
+                      span{
+                          display: inline-block;
+                      }
+                  }
+              }
+          }
+        }
+      }
+}
+@media screen and (min-width: 1440px){
+    #Fresh {
+        margin-top: 80px;
+        margin-bottom: 80px;
+        .container {
+          max-width: 1300px;
+        }
+        .fresh{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 53px;
+        }
+        .fresh_img {
+          margin-bottom: 0;
+          img {
+            width: 623.5px;
+            height: 578px;
+          }
+        }
+        .fresh_text {
+          margin-top: 0;
+          h2 {
+            margin-top: 20px;
+            text-align: start;
+            font-size: 50px;
+            line-height: 62px;
+          }
+          p {
+            text-align: start;
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 60px;
+          }
+          .fresh_boxes{
+              display: flex;
+              flex-direction: column;
+              margin-top: 80px;
+              .fresh_box{
+                  display: flex;
+                  align-items: center;
+                  gap: 23px;
+                  img{
+                      width: 52px;
+                      height: 52px;
+                      margin-top: -60px;
+                  }
+                  p{
+                     text-align: left;
+                      color:$color-1;
+                      font-size: 16px;
+                      font-weight: 400;
+                      line-height: 24px; 
+                  
+                      span{
+                          display: inline-block;
+                      }
+                  }
+              }
+          }
+        }
+      }
+}
+
+
